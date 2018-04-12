@@ -35,20 +35,20 @@ This is a deep and comprehensive, “Get Started” course to give you the skill
 
 5. HTML > Tags - Meta, Content
 
-	<doctype>: solo algo que dice que tipo de documento usamos.
-	<html>: encuadra todo el documento (casi)
-	<head>: donde van todos los meta-tags y el Title de la página. 
-	<body>: donde va todo el contenido de la web
-	<h1>, <h2>, <h3>... <h6>: Títulos ordenados por prioridad.
+	`<doctype>`: solo algo que dice que tipo de documento usamos.
+	`<html>`: encuadra todo el documento (casi)
+	`<head>`: donde van todos los meta-tags y el Title de la página. 
+	`<body>`: donde va todo el contenido de la web
+	`<h1>`, `<h2>`, `<h3>`... `<h6>`: Títulos ordenados por prioridad.
 	
 	Explicación de por qué solo hay 1 H1 por página: Aunque nosotros decidimos realmente usar la interpretación que querramos para organizar nuestros titulos, existe el SEO y los crawlers que definen lo que está bien y lo que está mal en una estructura web. Y hay que estar al tanto de esto para que todo salga bonis. 
 
-	<p>: párrafos. 
-	<span>: contenedor genérico de texto. 
-	<div>: división de contenido. Usado para agrupar contenidos. 
-	<ul>: lista desordenada
-	<ol>: lista ordenada
-	<li>: elemento de lista
+	`<p>`: párrafos. 
+	`<span>`: contenedor genérico de texto. 
+	`<div>`: división de contenido. Usado para agrupar contenidos. 
+	`<ul>`: lista desordenada
+	`<ol>`: lista ordenada
+	`<li>`: elemento de lista
 	
 	Ejemplo sobre "hablarle a tu futuro yo y escribir html semántico aunque no veamos la diferencia entre listas ordenadas y desordenadas".
 
@@ -56,12 +56,12 @@ This is a deep and comprehensive, “Get Started” course to give you the skill
 
 	Otros Tags: 
 
-	<br>: 
-	<strong>: 
-	<header>: 
-	<footer>: 
-	<main>: 
-	<article>: 
+	`<br>`: 
+	`<strong>`: 
+	`<header>`: 
+	`<footer>`: 
+	`<main>`: 
+	`<article>`: 
 
 6. HTML > Excercise 1: Creating a New Page
 
@@ -99,8 +99,8 @@ This is a deep and comprehensive, “Get Started” course to give you the skill
 
 10. HTML > Tags - Void Tags
 
-	<input>
-	<img src="http://placekitten.com/400/400">
+	`<input>`
+	`<img src="http://placekitten.com/400/400">`
 
 	Y podemos hablar un poco sobre los atributos. 
 
@@ -115,29 +115,29 @@ This is a deep and comprehensive, “Get Started” course to give you the skill
 12. HTML > Classes
 
 	Ok. Ahora veremos cómo ponerle un nombre a esos grupos que creamos antes. Ahora sí que se convierten en algo valioso. 
-
+	```html
 	<div class="media-object">
 		<p>Parrafo 1</p>
 		<img src="imagen1.jpg">
 	</div>
-
+	```
 
 13. HTML > ID's
 
 	Los Ids funcionan igual que las clases pero con una gran diferencia: Son unicos. (O por lo menos deberían serlo!!)
-
+	```html
 	<div id="nombreUnico" class="media-object">
 		<p>Parrafo 1</p>
 		<img src="imagen1.jpg">
 	</div>
-
+	```
 	Lo interesante es que puedes ponerle todas las clases que quieras a un elemento, pero solo 1 ID, y además el ID es único. 
-
+	```html
 	<div id="nombreUnico" class="media-object fondo-verde">
 		<p>Parrafo 1</p>
 		<img src="imagen1.jpg">
 	</div>
-
+	```
 14. HTML > Tags - Naming
 
 	Going Back to Semantic Stuff. Aquí podemos incluir un poco de material sobre BEM. 
