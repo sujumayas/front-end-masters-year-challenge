@@ -121,17 +121,33 @@ This is a deep and comprehensive, “Get Started” course to give you the skill
 		<img src="imagen1.jpg">
 	</div>
 
+
 13. HTML > ID's
 
 	Los Ids funcionan igual que las clases pero con una gran diferencia: Son unicos. (O por lo menos deberían serlo!!)
 
+	<div id="nombreUnico" class="media-object">
+		<p>Parrafo 1</p>
+		<img src="imagen1.jpg">
+	</div>
 
+	Lo interesante es que puedes ponerle todas las clases que quieras a un elemento, pero solo 1 ID, y además el ID es único. 
+
+	<div id="nombreUnico" class="media-object fondo-verde">
+		<p>Parrafo 1</p>
+		<img src="imagen1.jpg">
+	</div>
 
 14. HTML > Tags - Naming
 
-	
+	Going Back to Semantic Stuff. Aquí podemos incluir un poco de material sobre BEM. 
+	Pero, en resumen es evitar nombrar las clases de forma "presentacional" como "right-navigation" y al mismo tiempo intentar que siempre los nobmres sean referenciales del contenido que muestran. Como "main-sidebar" o algo  así. 
+
+	Menos "como se ve" y más "qué es". <3
 
 15. HTML > Excercise 2: Giving Classes
+
+	
 
 16. HTML > Excercise 2: Solution
 
