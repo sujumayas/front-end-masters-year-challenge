@@ -159,15 +159,55 @@ This is a deep and comprehensive, “Get Started” course to give you the skill
 
 15. HTML > Excercise 2: Giving Classes
 
-	
+	Aquí hay que colocar un ejercicio (o más) de darle clases a elementos de HTML. 
 
 16. HTML > Excercise 2: Solution
 
+	Aquí hacer un resumen de las soluciones de esos ejercicios. Y explicar algunos conceptos básicos como (1) como amplificar la funcionalidad básica del html con clases, es decir, a nivel de arquitectura. (2) como nombrar las cosas de forma que no tengamos que leer los contenidos - evitar cosas demasiado genéricas. (3) Como simplificar los nombres por secciones o areas o tipos de contenidos para que el CSS no sea tan complicado de escribir. 
+
+	Otros temas que se pueden tocar: CamelCase vs . 
+
 17. CSS > What is CSS?
+
+	Cascading Style Sheets. 
+
+	Mientras el HTML es el código que define qué contenidos habrá en tu web, y cómo se estructuran; CSS decide cómo se verán estos contenidos en la web. 
+
+	CSS es una colección de reglas que adjudicas a los distintos tipos de elementos del HTML seleccionandolos por medio selectores. Los selectores más básicos son : 
+
+
+	```css
+	p {
+		/* Element Selector : Selecciona todos los párrafos de la página. */
+	} 
+	.red {
+		/* Class Selector: Selecciona a todos los elementos que tengan esta clase. */
+	} 	
+	#someUniqueId {
+		/*Id Selector: Selecciona todos los elementos que tengan este id. */
+	} 
+	```
 
 18. CSS > Better Practices
 
+	**Aquí podemos colocar info de muchos lados.** 
+	Cosas básicas:
+		- Ponerle clase a todo. 
+		- Evitar IDs 
+		-   
+
 19. CSS > Text Properties and Measurements
+
+	```css
+	.text-propertys {
+		color: red; /* Cambia el color del texto a rojo */
+		font-weight: bold/900; /* Cambia el peso de las letras */ 
+		font-style: italic; /* Cambia el estilo del texto a itálicas */
+		text-align: center; /* Alinea el texto al centro */
+		font-size: 25px; /* Cambia el tamaño del texto */
+	}		
+	```
+	
 
 20. CSS > Boxes
 
